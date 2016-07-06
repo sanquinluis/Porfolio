@@ -1,2 +1,2 @@
-# Porfolio
-Using Bootstrap
+# Portfolio
+Homework Week Two, Part One
