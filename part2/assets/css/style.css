@@ -60,12 +60,43 @@ section {
 	padding: 15px;
 	width: 100%;
 }
-
+.together {
+	
+}
 
 @media only screen and (max-width: 768px) {
-	/* Add your code here */
+	.content-wrapper {
+        background-color: darkblue;
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 640px) {
+	.content-wrapper {
+        background-color: darkgreen;
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 640px) {
+	.about-me img {
+	float: left;
+	width: 100%;
+	text-align: center;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.together {
+		float: left;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	section {
+		width: 100%;
+	}
 }
 
-@media only screen and (max-width: 640px) {
-	/* Add your code here */
-}
+
+
+
+
+
