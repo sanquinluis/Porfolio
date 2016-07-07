@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["FWQZq"]); }
+
+__d('ChatTimezoneWarning',['MercuryParticipants','MercuryViewer'],function a(b,c,d,e,f,g){'use strict';if(c.__markCompiled)c.__markCompiled();var h={updateUserTimezoneWarning:function(i,j,k){c('MercuryParticipants').get(c('MercuryViewer').getID(),function(l){var m=l.employee,n=l.timezone;if(m&&n)c('MercuryParticipants').getMulti(i.participants,function(o){var p={};for(var q in o)if(o[q].timezone!==undefined&&o[q].timezone!==null&&n!==o[q].timezone){var r=o[q].fbid;p[r]=o[q].timezone;}if(Object.keys(p).length>0){p.self=n;j(p);}else k();});});}};f.exports=h;},null);
