@@ -105,6 +105,9 @@
   .navbar-default .navbar-toggle {
       border-color: transparent;
   }
+  #myNavbar {
+    background-color:#29292c !important;
+  }
   .open .dropdown-toggle {
       color: #fff;
       background-color: #555 !important;
